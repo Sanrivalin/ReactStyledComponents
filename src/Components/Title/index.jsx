@@ -1,8 +1,9 @@
-import React from "react";
+
 import styled from 'styled-components'
 
 const Title = styled.h1`
-color:grey;
+/* color:grey; */
+color:${({ theme })=> theme.text};
 padding: 25px 0;
 `
 
